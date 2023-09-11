@@ -1,0 +1,121 @@
+@font-face {
+    font-family: TiltPrism;
+    src: url(../fonts/static/TiltPrism-Regular.ttf);
+}
+
+:root {
+    --text-color: black;
+    --icon-size: 25px;
+    --body-font-family: 'DM Sans', sans-serif;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    body {
+        max-width: 1600px;
+    }
+  }
+
+  body {
+    font-family: var(--body-font-family);
+  }
+
+header {
+    display: flex;
+    background-color: white;
+}
+
+img#logo {
+    width: 100px;
+
+}
+
+#nav-tel {
+    background-color: white;
+    border: 1px solid red;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    width: 3%;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+#tel {
+    background-color: transparent;
+    border: 1px solid red;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    padding: 0.5%;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#nav-tel img {
+    width: var(--icon-size);
+}
+
+ul li {
+    display: inline;
+    text-transform: uppercase;
+    border: 1px solid red;
+}
+
+header {
+    border: 1px solid red;
+}
+
+.hero {
+    background-image: url("../images/Portfoliobgcolor.png");
+    background-size:220vh 100vh
+}
+
+.hero-text {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.hero-start {
+    background-color: #BB0D24;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
